@@ -2,7 +2,7 @@
 
 **See Headers Below For Step By Step Outline**
 
-> **Note**: each step has a corresponding commit with the implemented actions on the [solution branch](https://github.com/ga-wdi-exercises/react-omdb/tree/solution) of this repo
+> **Note**: each step has a corresponding commit with the implemented actions on the solution branch of this repo.
 
 ### Step 0: Examine the Solution
 
