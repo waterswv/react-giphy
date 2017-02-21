@@ -28,7 +28,6 @@ Move back to the `master` branch to build out the app yourself!
 
 Before we start building our React app, let's create a `HelloWorld` component just to make sure that we've tied everything together properly.
 
-- `npm install` the dependencies you'll need
 - In your `/src` directory, configure your `App.js` and `index.js` files to render a `HelloWorld` component
 - Run `npm start` and make sure everything is working
 
