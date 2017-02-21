@@ -67,7 +67,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 - This is starting to look like a single page app, but we don't have routing yet. Update the component so that the search bar and any results are always displayed on the page, and clear out old results when a new search is submitted. 
 
 
-<details><summary>click for simplified hard-coded data you dould use</summary>
+<details><summary>click for simplified hard-coded data you could use</summary>
 ```js
 {
   "data": [
