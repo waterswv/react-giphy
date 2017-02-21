@@ -6,17 +6,25 @@
 
 ### Step 0: Examine the Solution
 
-Fork and clone the app locally.
+Fork and clone to get a copy of the app locally.
 
-Check out to the solution branch and spend time playing around with the completed exercise. Think about how you would separate your different components and functionality.
+
+
+Check out to the ES6 soultion branch.
 
 ```
-git checkout solution
 npm install
 npm start
 ```
 
+Spend time playing around with the completed exercise.  Look at `index.js`.  Think about how you would separate your different components and functionality. 
+
+You can also explore the (ES5) `solution` branch if you'd like.
+
+
 ### Step 1: Set up a `HelloWorld` Component
+
+Move back to the `master` branch to build out the app yourself!
 
 Before we start building our React app, let's create a `HelloWorld` component just to make sure that we've tied everything together properly.
 
