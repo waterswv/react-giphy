@@ -6,8 +6,7 @@
 
 ### Step 0: Examine the Solution
 
-Fork and clone to get a copy of the app locally.
-
+Fork and clone to get a local copy of the app.
 
 
 Check out to the ES6 soultion branch.
@@ -21,17 +20,17 @@ Spend time playing around with the completed exercise.  Look at `index.js`.  Thi
 
 You can also explore the (ES5) `solution` branch if you'd like.
 
-A solution with giphy is available in a [react-giphy-solution](https://github.com/sf-wdi-34/react-giphy-solution) repo.
+A solution with giphy gif searching is available in a [react-giphy-solution](https://github.com/sf-wdi-34/react-giphy-solution) repo.
 
 
 ### Step 1: Set up a `HelloWorld` Component
 
-Move back to the `master` branch to build out the app yourself!
+Move back to the `master` branch to build out the app yourself! Remove your `node_modules` folder manually, since it's included in `.gitingore`.   Re-`npm install` any packages you will need.
 
-Before we start building our React app, let's create a `HelloWorld` component just to make sure that we've tied everything together properly.
+Before we start building our React app, let's create a `HelloWorld` component just to make sure that we've tied everything together properly.  
 
-- In your `/src` directory, configure your `App.js` and `index.js` files to render a `HelloWorld` component
-- Run `npm start` and make sure everything is working
+- In your `/src` directory, configure your `App.js` and `index.js` files to render a `HelloWorld` component.
+- Run `npm start` and make sure everything is working.
 
 ### Step 2: Add UI for Home
 
@@ -62,14 +61,14 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 ### Step 6: When a User Searches...
 
-- Define a `Results` component that will take in a collection of ~~movie~~ gif objects and render each one's ~~movie's title and poster~~ `source` url as well as a fixed height image.  Go ahead an look at the ~~[OMDB API documentation](http://omdbapi.com/)~~ [Giphy documentation](https://github.com/Giphy/GiphyAPI#search-endpoint) to see the structure of the data it will return.
-- Update your `SearchContainer` component's states to include whether the user has submitted a search.
-- Update `SearchContainer`'s state to include a list of results, as well.
+- Define a `Results` component that will take in a collection of ~~movie~~ gif objects and render each one's ~~movie's title and poster~~ `source` url as well as a fixed height image.  Go ahead an look at the ~~[OMDB API documentation](http://omdbapi.com/)~~ [Giphy search documentation](https://github.com/Giphy/GiphyAPI#search-endpoint) to see the structure of the JSON it sends.
+- Update your `SearchContainer` component's state to include whether the user has submitted a search.
+- Update `SearchContainer`'s state to include a list of results.
 - If a user has searched, instead of rendering the `Search` component, render a `Results` component with hard coded data.
-- This is starting to look like a single page app, but we don't have routing yet. Update the component so that the search bar and any results are always displayed on the page, and clear out old results when a new search is submitted. 
+- This is starting to look like a single page app, but we don't have routing yet. If you'd like, update the component so that the search bar and any results are always displayed on the page, and clear out old results when a new search is submitted. 
 
 
-<details><summary>click for simplified hard-coded data you could use</summary>
+<details><summary>click for simplified hard-coded gif data you could use</summary>
 ```js
 {
   "data": [
@@ -120,7 +119,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 - With the API we're using, you don't need to register for an API key. Go ahead an look at the ~~[OMDB API documentation](http://omdbapi.com/)~~ [documentation](https://github.com/Giphy/GiphyAPI) to determine the API's proper usage.
 - We're going to be searching the ~~movie~~ giphy API based on ~~title~~ a word or phrase to return a collection of results.
-- Load in jQuery, and use it to make an AJAX HTTP request to the API search endpoint using the user's query.
+- Load in jQuery, and use it to make an HTTP request to the API search endpoint using the user's query.
 - Pass the movie data to the Results component to be displayed.
 
 ### Step 8: Add Styles to your React app
@@ -130,7 +129,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 - Create a `styles` directory and make a file for your CSS rule definitions - this will be written in Javascript!.
 - Load in that file in any component and then use that to apply inline styling.
 
-### Step 9: Add a single Result detail Component
+### Step 9: Add a single result detail component
 
-- Create a `Result` or `Details` component that renders information about a ~~movie~~ gif.
+- Create a `Details` component that renders information about a single ~~movie~~ gif.
 - When a user clicks on a ~~movie~~ gif in the results view, render the ~~movie~~ detail UI.
