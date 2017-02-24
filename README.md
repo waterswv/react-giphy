@@ -20,7 +20,7 @@ Spend time playing around with the completed exercise.  Look at `index.js`.  Thi
 
 You can also explore the (ES5) `solution` branch if you'd like.
 
-A solution with giphy gif searching is available in a [react-giphy-solution](https://github.com/sf-wdi-34/react-giphy-solution) repo.
+A solution with giphy gif searching is available in a [react-giphy-solution](https://github.com/sf-wdi-labs/react-giphy-solution) repo.
 
 
 ### Step 1: Set up a `HelloWorld` Component
