@@ -118,7 +118,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 - With the API we're using, you don't need to register for an API key. Go ahead an look at the [documentation](https://github.com/Giphy/GiphyAPI) to determine the API's proper usage.
 - We're going to be searching the giphy API based on a word or phrase to return a collection of results.
 - Load in jQuery, and use it to make an HTTP request to the API search endpoint using the user's query.
-- Pass the movie data to the Results component to be displayed.
+- Pass the data to the Results component to be displayed.
 
 ### Step 8: Add Styles to your React app
 
