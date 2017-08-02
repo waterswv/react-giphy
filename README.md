@@ -1,4 +1,4 @@
-# React OMDB
+# React Giphy
 
 **See Headers Below For Step By Step Outline**
 
@@ -59,7 +59,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 ### Step 6: When a User Searches...
 
-- Define a `Results` component that will take in a collection of ~~movie~~ gif objects and render each one's ~~movie's title and poster~~ `source` url as well as a fixed height image.  Go ahead an look at the ~~[OMDB API documentation](http://omdbapi.com/)~~ [Giphy search documentation](https://github.com/Giphy/GiphyAPI#search-endpoint) to see the structure of the JSON it sends.
+- Define a `Results` component that will take in a collection of gif objects and render each one's `source` url as well as a fixed height image.  Go ahead an look at the [Giphy search documentation](https://github.com/Giphy/GiphyAPI#search-endpoint) to see the structure of the JSON it sends.
 - Update your `SearchContainer` component's state to include whether the user has submitted a search.
 - Update `SearchContainer`'s state to include a list of results.
 - If a user has searched, instead of rendering the `Search` component, render a `Results` component with hard coded data.
@@ -115,8 +115,8 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 ### Step 7: Search the ~~Omdb~~ Giphy API
 
-- With the API we're using, you don't need to register for an API key. Go ahead an look at the ~~[OMDB API documentation](http://omdbapi.com/)~~ [documentation](https://github.com/Giphy/GiphyAPI) to determine the API's proper usage.
-- We're going to be searching the ~~movie~~ giphy API based on ~~title~~ a word or phrase to return a collection of results.
+- With the API we're using, you don't need to register for an API key. Go ahead an look at the [documentation](https://github.com/Giphy/GiphyAPI) to determine the API's proper usage.
+- We're going to be searching the giphy API based on a word or phrase to return a collection of results.
 - Load in jQuery, and use it to make an HTTP request to the API search endpoint using the user's query.
 - Pass the movie data to the Results component to be displayed.
 
@@ -129,5 +129,5 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 ### Step 9: Add a single result detail component
 
-- Create a `Details` component that renders information about a single ~~movie~~ gif.
-- When a user clicks on a ~~movie~~ gif in the results view, render the ~~movie~~ detail UI.
+- Create a `Details` component that renders information about a single gif.
+- When a user clicks on a  gif in the results view, render the detail UI.
