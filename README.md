@@ -67,6 +67,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 
 
 <details><summary>click for simplified hard-coded gif data you could use</summary>
+
 ```js
 {
   "data": [
@@ -113,7 +114,7 @@ Before we start building our React app, let's create a `HelloWorld` component ju
 ## Bonus
 
 
-### Step 7: Search the ~~Omdb~~ Giphy API
+### Step 7: Search the Giphy API
 
 - With the API we're using, you don't need to register for an API key. Go ahead an look at the [documentation](https://github.com/Giphy/GiphyAPI) to determine the API's proper usage.
 - We're going to be searching the giphy API based on a word or phrase to return a collection of results.
